@@ -1,0 +1,40 @@
+div.slideshow__container{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+/*individual slide styling*/
+div#slide-one{
+    background-color: blue;
+}
+
+div#slide-two{
+    background-color: green;
+}
+
+div#slide-three{
+    background-color: pink;
+}
+
+div#slide-four{
+    background-color: red;
+}
+
+div#slide-five{
+    background-color: orange;
+}
+
+.slide{
+    display: none;
+}
+
+.current{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.current p{
+    margin: 0;
+}
