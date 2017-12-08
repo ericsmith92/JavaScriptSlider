@@ -1,14 +1,11 @@
-//alert('connected');
-
 //grab all slides
-const slideOne = document.querySelector('#slide-one');
-const slideTwo = document.querySelector('#slide-two');
-const slideThree = document.querySelector('#slide-three');
-const slideFour = document.querySelector('#slide-four');
-const slideFive = document.querySelector('#slide-five');
 
-//put into array
-const slideArray = [slideOne, slideTwo, slideThree, slideFour, slideFive];
+const slides = document.querySelectorAll('.slide');
+const slideArray = [];
+
+slides.forEach(function(slide){
+    slideArray.push(slide);
+});
 
 //grab buttons
 const btns = document.querySelectorAll('button');
